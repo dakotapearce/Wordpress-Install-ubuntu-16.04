@@ -30,3 +30,25 @@ And your in!
 ## Step 1, Installing Apache ##
 To start off we'll need apache2 to get online into the internet 
 
+Update your local package.
+
+    sudo apt-get update
+    
+Install the apache2 package, and enter yes finish installing.
+
+    sudo apt-get install apache2 
+    
+After it should be all finished intalled 
+
+## Step 2, Installing MYSQL ##
+Now we need mysql to hold our wordpress database.
+
+Install MYSQL server and it yes when prompted.
+
+    sudo apt-get install mysql-server
+    
+    
+
+
+
+
