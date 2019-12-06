@@ -63,7 +63,7 @@ Now we are in mysql command line and will create a user and database for wordpre
 
     CREATE USER 'new-user'@'localhost' IDENTIFIED BY 'new_user-password';
     
-MAKE SURE YOU WRITE THE USER AND PASSWORD DOWN! you need this for your config later.
+MAKE SURE YOU WRITE THE USERNAME AND PASSWORD DOWN! you need this for your config later.
 Then we create a database and grant permissions to the database, then we'll be finished in mysql for now.
 
     CREATE DATABASE wordpress;
