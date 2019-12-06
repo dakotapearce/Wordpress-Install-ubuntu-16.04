@@ -47,7 +47,9 @@ Install MYSQL server and it yes when prompted.
 
     sudo apt-get install mysql-server
     
-    
+after loading through the command you'll hit a screen that looks a little like this 
+
+![Example One](/images/img1.png)
 
 
 
