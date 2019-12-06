@@ -51,6 +51,28 @@ after loading through the command you'll hit a screen that looks a little like t
 
 ![Example One](/images/img1.png)
 
+Enter in a new root password and write it down, we will need this later.
+
+Now we will create a user and database for wordpress, type 
+
+    mysql -u root -p
+    
+you'll be propmted to enter your password make sure its the one we wrote down before.
+
+Now we are in mysql command line and will create a user and database for wordpress, first we'll enter
+
+    CREATE USER 'new-user'@'localhost' IDENTIFIED BY 'new_user-password';
+    
+MAKE SURE YOU WRITE THE USER AND PASSWORD DOWN! you need this for your config later.
+Then we create a database and grant permissions to the database, then we'll be finished in mysql for now.
+
+    CREATE DATABASE wordpress;
+    GRANT ALL PRIVILEGES ON *.* TO 'new-user'@'localhost';
+    exit
+
+## Step 3, Installing PHP ##
+
+
 
 
 
