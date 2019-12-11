@@ -104,6 +104,6 @@ Now we can head to the ip address or domain on your browser to do the wordpress 
     
 First screen will pop up just continue the installation 
 
-
+![Example Two](/images/img2.png)
    
    
