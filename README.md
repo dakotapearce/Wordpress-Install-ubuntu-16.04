@@ -95,30 +95,15 @@ Then lets grab wordpress and unzip the directory
 Then we'll move the files from wordpress directory into the current directory which sould be /var/www/html
 
     mv wordpress/* ./
+    sudo rm latest.tar.gz
+    sudo rm -r wordpress
     
-After that is done we have to configure our database, first lets get into the directory with the wordpress files
-
-    cd /var/www/html
+Now we can head to the ip address or domain on your browser to do the wordpress install  
     
-Then you want to sudo nano into the config file
-
-    sudo nano wp-config.php
-    
-after make sure you change the following values to the mysql database name the user and password we created before 
-
-    // ** MySQL settings ** //
-    /** The name of the database for WordPress */
-    define('DB_NAME', 'wordpress');
-
-    /** MySQL database username */
-    define('DB_USER', 'new_user');
-
-    /** MySQL database password */
-    define('DB_PASSWORD', 'new_user_password');
-    
-Now all we have to do is finish the wordpress install 
-
-
 ## Step 5, Wordpress install ##
+    
+First screen will pop up just continue the installation 
+
+
    
    
