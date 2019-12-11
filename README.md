@@ -76,7 +76,7 @@ This is a very easy step, enter in these commands and everything should be confi
    
     sudo apt-get install php
     sudo apt-get install php-{bcmath,bz2,intl,gd,mbstring,mcrypt,mysql,zip} 
-    sudo apt-get install libapache2-mod-ph
+    sudo apt-get install libapache2-mod-php7.0
     
 ## Step 4, downloading and Configuring Wordpress ##
 
