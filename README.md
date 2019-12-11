@@ -102,8 +102,12 @@ Now we can head to the ip address or domain on your browser to do the wordpress 
     
 ## Step 5, Wordpress install ##
     
-First screen will pop up just continue the installation 
+First screen will pop up,cler just continue the installation 
 
 ![Example Two](/images/img2.png)
+
+Next were going to enter in some information, including database name, myslq user created before with password, look closely at the feilds to help with what the requirements are.
+
+![Example Three](/images/img3.png)
    
    
