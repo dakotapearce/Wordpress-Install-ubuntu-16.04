@@ -110,4 +110,21 @@ Next were going to enter in some information, including database name, myslq use
 
 ![Example Three](/images/img3.png)
    
+With the next screen we well need to head back to the terminal for a second and enter in a couple commands. First we'll need to go to the directory like we did before 
+
+    cd /var/www/html
+    
+now were gonna create and edit a config file use the command bellow to create and edit the file  
+    
+    sudo nano wp-config.php
+    
+Then copy and paste the information from your wordpress screen that's highlighted bellow
    
+![Example Four](/images/img4.png)  
+
+After your hit run the installation button, when you hit a page that looks a little like this you're all done 
+
+![Example Five](/images/img5.png) 
+
+hit the login but login with the credintials before and your ready to start wordpressing.
+
