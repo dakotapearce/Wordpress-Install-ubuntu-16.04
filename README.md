@@ -85,6 +85,7 @@ First we need to give ourselves root permissions to the directory
 
     sudo chown -R your-server-username:your-server-username /var/www/html
     cd /var/www/html
+    sudo rm index.html
     
 Then lets grab wordpress and unzip the directory 
 
