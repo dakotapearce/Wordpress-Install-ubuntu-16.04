@@ -122,6 +122,12 @@ Then copy and paste the information from your wordpress screen that's highlighte
    
 ![Example Four](/images/img4.png)  
 
+make sure the document looks like this 
+
+![Example Six](/images/img7.png)
+
+After your document looks aok then save and exit by using CTRL-O {ENTER} then CTRL-X 
+
 After your hit run the installation button, when you hit a page that looks a little like this you're all done 
 
 ![Example Five](/images/img5.png) 
