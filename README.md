@@ -89,8 +89,8 @@ First we need to give ourselves root permissions to the directory
     
 Then lets grab wordpress and unzip the directory 
 
-    wget http://wordpress.org/latest.tar.gz
-    tar xfz latest.tar.gz
+    sudo wget http://wordpress.org/latest.tar.gz
+    sudo tar xfz latest.tar.gz
 
 Then we'll move the files from wordpress directory into the current directory which sould be /var/www/html
 
